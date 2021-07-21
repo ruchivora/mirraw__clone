@@ -23,9 +23,9 @@ function Slider( {title , design_detail}) {
               key   = { design.id }
               title = { design.title} 
               symbol = { design.symbol}
-              inr_discount_price = { design.inr_discount_price}
+              discount_price = { design.discount_price}
               discount_percent = {design.discount_percent}
-              inr_price = {design.inr_price}
+              price = {design.price}
               image = { design.sizes}
 
             />;

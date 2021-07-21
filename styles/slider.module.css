@@ -51,6 +51,7 @@
 .design_name{
   overflow: hidden;
   text-overflow: ellipsis;
+  text-transform: capitalize;
 }
 .actual_price{
   font-size:14px;
