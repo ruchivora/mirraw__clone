@@ -5,9 +5,8 @@ import ProductTile from './ProductTile'
 
 
 function Slider( {title , design_detail}) {
-  console.log( design_detail.class )
+  
   return (
-    
     <div className = {styles.container}>
       <div className = {styles.slider} >
         <div className ={`pb-0 ${styles.slider_heading}`}>

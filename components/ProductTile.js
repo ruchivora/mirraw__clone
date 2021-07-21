@@ -3,20 +3,22 @@ import styles from '../styles/slider.module.css';
 
 
 const ProductTile = ( { title , symbol,discount_percent ,discount_price,price,image } ) => {
-  console.log( "dicountrd price" + discount_price)
+  
   return(
-    <div className={styles.design_detail}>
-      <img className={styles.design_image} src={ `https://${image.large}` } style={{ width: '100%' , height:'250px'}} />
-      
-      <div className={styles.design_specification}>
-        <div className={styles.design_name}>{title}</div>
-        <div className = {styles.design_price}>
-          <span className={styles.discount_price}>{symbol} {discount_price}</span>  
-          <span className={styles.actual_price}>{symbol} {price}</span>
-          <span className={styles.discount_percent}>({discount_percent}% OFF)</span>
+    <div className={styles.box_shadow}>
+      <div className={styles.design_detail}>
+        <img className={styles.design_image} src={ `https://${image.large}` } style={{ }} />
+        
+        <div className={styles.design_specification}>
+          <div className={styles.design_name}>{title}</div>
+          <div className = {styles.design_price}>
+            <span className={styles.discount_price}>{symbol} {discount_price}</span>  
+            <span className={styles.actual_price}>{symbol} {price}</span>
+            <span className={styles.discount_percent}>({discount_percent}% OFF)</span>
+          </div>
         </div>
-      </div>
 
+      </div>
     </div>
 
   );
