@@ -1,0 +1,67 @@
+.container{
+  /* border: 1px solid red ; */
+}
+.slider{
+  margin: 20px 15px 20px 15px ; 
+  /* border: 1px solid black ; */
+}
+.slider_heading{
+  width:100%;
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: 8px;
+}
+.slider_heading span{
+  margin: auto 0;
+  color: #8f1b1c;
+  font-size: 11px;
+  font-weight: 600;
+}
+.cotton_saree-heading h4{
+  font-weight:600;
+}
+.design_collection{
+  border: 1px solid red;
+  width: 100%;
+  display : flex;
+  overflow-x: auto;
+}
+.design_collection::-webkit-scrollbar {
+  display: none;
+}
+.discount_price{
+  font-weight: 700;
+  font-size:15px;
+}
+.design_image{
+  border-radius: 4px;
+  width: '100%'
+}
+.design_detail {
+  /* border: 1px solid black; */
+  white-space: nowrap;
+  width: 210px;
+  text-overflow: ellipsis;
+  margin: 0 5px 0 5px;
+}
+
+.design_specification{
+  margin-top: 2%;
+}
+.design_name{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.actual_price{
+  font-size:14px;
+  text-decoration: line-through;
+  margin: 0 2% 0 2%;
+  color:grey;
+}
+
+.discount_percent{
+  font-size:13px;
+  color: #319f48;
+  word-spacing: 3px;
+  
+}
